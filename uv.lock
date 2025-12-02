@@ -55,7 +55,7 @@ wheels = [
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.212.0"
+version = "2.231.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aws-cdk-asset-awscli-v1" },
@@ -66,9 +66,9 @@ dependencies = [
     { name = "publication" },
     { name = "typeguard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/56/b4/095f02e5937edf9d081f16cdc4d99cc00fc0e6ec920c9a198e5fd63877ef/aws_cdk_lib-2.212.0.tar.gz", hash = "sha256:27b44c3ce72e1d75cc8279bbe9003d1fc0249a6e80e3f1b916285403f2f87fb7", size = 42139500, upload-time = "2025-08-20T13:42:40.539Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/fc/b0e85cfba12c3a0391f66dce935d52575f01e464f5ec0707cae49b5de26d/aws_cdk_lib-2.231.0.tar.gz", hash = "sha256:8480af5c243c52e942205fa3af3fa65252889270dc3bd5162e2ff24d581b1d54", size = 46460137, upload-time = "2025-12-01T18:34:16.464Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/72/83/8a02d70b2c30714a08ad56d322a424186934a48697956105b76c3ace87ae/aws_cdk_lib-2.212.0-py3-none-any.whl", hash = "sha256:9a7e2edcd4edaf6cc2e319523ce572d440fcfc0fd16eb7d1d2025f2f30fea65c", size = 42415839, upload-time = "2025-08-20T13:42:08.756Z" },
+    { url = "https://files.pythonhosted.org/packages/4a/66/2eac6632c99f9cbea67d5551bed441d59b84cadf0cd9eaa8af28cd60011d/aws_cdk_lib-2.231.0-py3-none-any.whl", hash = "sha256:44aad6e0c10a0039416c913a3190b1412ae2bc20fd55b9fcaae265a396db64a3", size = 47105099, upload-time = "2025-12-01T18:33:41.26Z" },
 ]
 
 [[package]]
@@ -382,10 +382,10 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "aws-cdk-lib", specifier = "==2.212.0" },
+    { name = "aws-cdk-lib", specifier = "==2.231.0" },
     { name = "boto3", specifier = "==1.42.0" },
-    { name = "entsoe-py", specifier = "==0.7.4" },
-    { name = "moto", specifier = "==5.1.5" },
+    { name = "entsoe-py", specifier = "==0.7.8" },
+    { name = "moto", specifier = "==5.1.18" },
     { name = "responses", specifier = "==0.25.8" },
     { name = "scipy", specifier = "<1.16" },
     { name = "urllib3", specifier = "==2.5.0" },
@@ -399,7 +399,7 @@ dev = [
 
 [[package]]
 name = "entsoe-py"
-version = "0.7.4"
+version = "0.7.8"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -407,9 +407,9 @@ dependencies = [
     { name = "pytz" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d4/fc/c468e7514b3932df49e8b4493440d88868d0a9d56dcf1a890a27a6c41264/entsoe_py-0.7.4.tar.gz", hash = "sha256:e2bb4109fdaecc558c47e3fedd0a3d99e2dc50669c40b94ab0443996484c3aaf", size = 1596526, upload-time = "2025-08-23T20:20:18.402Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/17/89/e6f18b055a7ffb7c27d046f9a0a0dd60e8bcf62cb97cfe3de91e7cfec1ed/entsoe_py-0.7.8.tar.gz", hash = "sha256:79f9991fe9f29437ea218c3d709752c9e995fed98a6c76f99da47b880c2fa009", size = 1596836, upload-time = "2025-10-22T14:50:53.616Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/e8/0e3959cd58b78504712352ee674ef980ddaf7d603f367edca68b5a5c1881/entsoe_py-0.7.4-py3-none-any.whl", hash = "sha256:30964f73308191c45833fcf827b7629ce4c4f33fc8c0cd661a0181d7bcf44060", size = 1620026, upload-time = "2025-08-23T20:20:16.408Z" },
+    { url = "https://files.pythonhosted.org/packages/0c/09/b5aa02657c323e44ba7f16d35d44e1c3e1e40e9658dd86b9c6570b68f280/entsoe_py-0.7.8-py3-none-any.whl", hash = "sha256:70202a7ad8a69f7371cee646a4120874bc968def84b857983b221a3984c69fb8", size = 1620260, upload-time = "2025-10-22T14:50:52.235Z" },
 ]
 
 [[package]]
@@ -532,7 +532,7 @@ wheels = [
 
 [[package]]
 name = "moto"
-version = "5.1.5"
+version = "5.1.18"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
@@ -545,9 +545,9 @@ dependencies = [
     { name = "werkzeug" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/24/9f/5cacf53cbd26b4a77c817fd4fbec2ed38139ba2cfcd842c279aa19ee161f/moto-5.1.5.tar.gz", hash = "sha256:42b362ea9a16181e8e7b615ac212c294b882f020e9ae02f01230f167926df84e", size = 6893155, upload-time = "2025-05-24T12:19:55.398Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/6a/a73bef67261bfab55714390f07c7df97531d00cea730b7c0ace4d0ad7669/moto-5.1.18.tar.gz", hash = "sha256:45298ef7b88561b839f6fe3e9da2a6e2ecd10283c7bf3daf43a07a97465885f9", size = 8271655, upload-time = "2025-11-30T22:03:59.58Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/84/0f/72a420e972a9e782d08843ced85d29f04c8470c66fc84ecb1c8a7e7abcf8/moto-5.1.5-py3-none-any.whl", hash = "sha256:866ae85eb5efe11a78f991127531878fd7f49177eb4a6680f47060430eb8932d", size = 4992353, upload-time = "2025-05-24T12:19:53.435Z" },
+    { url = "https://files.pythonhosted.org/packages/83/d4/6991df072b34741a0c115e8d21dc2fe142e4b497319d762e957f6677f001/moto-5.1.18-py3-none-any.whl", hash = "sha256:b65aa8fc9032c5c574415451e14fd7da4e43fd50b8bdcb5f10289ad382c25bcf", size = 6357278, upload-time = "2025-11-30T22:03:56.831Z" },
 ]
 
 [[package]]
