@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - '**.py'
+      - 'pyproject.toml'
+      - 'uv.lock'
       - '.github/workflows/ci.yaml'
 jobs:
   ci:
