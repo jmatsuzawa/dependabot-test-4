@@ -21,4 +21,4 @@ jobs:
       - if: steps.changes.outputs.app-test == 'true'
         run: |
           echo Running tests...
-          sleep 300
+          sleep 30
