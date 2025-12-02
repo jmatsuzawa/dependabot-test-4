@@ -19,4 +19,6 @@ jobs:
               - '.github/workflows/ci.yaml'
 
       - if: steps.changes.outputs.app-test == 'true'
-        run: sh -c "exit 0"
+        run: |
+          echo Running tests...
+          sleep 300
