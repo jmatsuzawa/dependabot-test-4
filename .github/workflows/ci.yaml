@@ -1,13 +1,22 @@
 name: CI
-on:
-  pull_request:
-    paths:
-      - '**.py'
-      - 'pyproject.toml'
-      - 'uv.lock'
-      - '.github/workflows/ci.yaml'
+on: pull_request
+
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - run: sh -c "exit 0"
+      - uses: actions/checkout@v6
+
+      - name: Check changed files
+        id: changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            app-test:
+              - '**.py'
+              - 'pyproject.toml'
+              - 'uv.lock'
+              - '.github/workflows/ci.yaml'
+
+      - if: steps.changes.outputs.app-test == 'true'
+        run: sh -c "exit 0"
