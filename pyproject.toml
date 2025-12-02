@@ -10,6 +10,7 @@ dependencies = [
     "entsoe-py==0.7.4",
     "moto==5.1.5",
     "responses==0.25.8",
+    "ruff==0.13.0",
     "scipy<1.16",
     "urllib3==2.5.0",
 ]
