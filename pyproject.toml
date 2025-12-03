@@ -15,9 +15,9 @@ dependencies = [
     "ruff==0.14.7",
     "scipy<1.16",
     "structlog==25.5.0",
-    "tzdata==2023.3",
+    "tzdata==2025.2",
     "urllib3==2.5.0",
-    "xmltodict==0.14.1",
+    "xmltodict==1.0.2",
 ]
 
 [dependency-groups]
