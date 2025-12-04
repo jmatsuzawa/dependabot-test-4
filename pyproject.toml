@@ -13,7 +13,7 @@ dependencies = [
     "fastapi==0.123.7",
     "iniconfig==2.3.0",
     "moto==5.1.18",
-    "py-partiql-parser==0.6.1",
+    "py-partiql-parser==0.6.3",
     "responses==0.25.8",
     "ruff==0.14.7",
     "scipy<1.16",
