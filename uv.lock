@@ -403,6 +403,7 @@ dependencies = [
     { name = "fastapi" },
     { name = "iniconfig" },
     { name = "moto" },
+    { name = "py-partiql-parser" },
     { name = "responses" },
     { name = "ruff" },
     { name = "scipy" },
@@ -428,6 +429,7 @@ requires-dist = [
     { name = "fastapi", specifier = "==0.123.7" },
     { name = "iniconfig", specifier = "==2.3.0" },
     { name = "moto", specifier = "==5.1.18" },
+    { name = "py-partiql-parser", specifier = "==0.6.1" },
     { name = "responses", specifier = "==0.25.8" },
     { name = "ruff", specifier = "==0.14.7" },
     { name = "scipy", specifier = "<1.16" },
@@ -728,6 +730,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/6b/8e/8c9fe7e32fdf9c386f83d59610cc819a25dadb874b5920f2d0ef7d35f46d/publication-0.0.3.tar.gz", hash = "sha256:68416a0de76dddcdd2930d1c8ef853a743cc96c82416c4e4d3b5d901c6276dc4", size = 5484, upload-time = "2019-01-15T07:52:23.914Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/d3/6308debad7afcdb3ea5f50b4b3d852f41eb566a311fbcb4da23755a28155/publication-0.0.3-py2.py3-none-any.whl", hash = "sha256:0248885351febc11d8a1098d5c8e3ab2dabcf3e8c0c96db1e17ecd12b53afbe6", size = 7687, upload-time = "2019-01-15T07:52:22.151Z" },
+]
+
+[[package]]
+name = "py-partiql-parser"
+version = "0.6.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/58/a1/0a2867e48b232b4f82c4929ef7135f2a5d72c3886b957dccf63c70aa2fcb/py_partiql_parser-0.6.1.tar.gz", hash = "sha256:8583ff2a0e15560ef3bc3df109a7714d17f87d81d33e8c38b7fed4e58a63215d", size = 17120, upload-time = "2024-12-25T22:06:41.327Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/97/84/0e410c20bbe9a504fc56e97908f13261c2b313d16cbb3b738556166f044a/py_partiql_parser-0.6.1-py2.py3-none-any.whl", hash = "sha256:ff6a48067bff23c37e9044021bf1d949c83e195490c17e020715e927fe5b2456", size = 23520, upload-time = "2024-12-25T22:06:39.106Z" },
 ]
 
 [[package]]
