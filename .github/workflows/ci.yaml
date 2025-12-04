@@ -28,7 +28,7 @@ jobs:
       - run: |
           echo Running tests...
           sleep 5
-          exit 0
+          exit 1
 
   dependabot-auto-merge:
     needs: ci
