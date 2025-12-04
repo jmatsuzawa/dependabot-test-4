@@ -5,21 +5,21 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "attrs==25.3.0",
-    "aws-cdk-cloud-assembly-schema==48.6.0",
+    "attrs==25.4.0",
+    "aws-cdk-cloud-assembly-schema==48.20.0",
     "aws-cdk-lib==2.231.0",
-    "boto3==1.42.1",
+    "boto3==1.42.2",
     "entsoe-py==0.7.8",
-    "fastapi==0.123.5",
+    "fastapi==0.123.7",
     "iniconfig==2.3.0",
     "moto==5.1.18",
     "responses==0.25.8",
     "ruff==0.14.7",
     "scipy<1.16",
     "structlog==25.5.0",
-    "tzdata==2023.3",
+    "tzdata==2025.2",
     "urllib3==2.5.0",
-    "xmltodict==0.14.1",
+    "xmltodict==1.0.2",
 ]
 
 [dependency-groups]
